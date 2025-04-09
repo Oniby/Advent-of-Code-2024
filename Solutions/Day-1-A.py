@@ -1,7 +1,7 @@
 import re
 import utils
 
-file_str = utils.read_full_input(1,'A')
+file_str = utils.read_full_input(1)
 
 pattern = re.compile(r'(\d+)\s+(\d+)\s?')
 m = re.findall(pattern, file_str)
